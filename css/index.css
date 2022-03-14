@@ -108,6 +108,7 @@ body {
 .container nav .bars {
     width: 25px;
     height: 25px;
+    cursor: pointer;
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-end;
@@ -150,7 +151,7 @@ body {
     height: 250px;
     background-color: #ddd;
     display: none;
-    z-index: 5;
+    z-index: 555;
 }
 
 
@@ -164,7 +165,7 @@ body {
     right: 10px;
     
 }
-.container nav .bars:hover+ ul {
+.container nav .bars ul {
     display: block;
 }
 
